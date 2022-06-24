@@ -4,6 +4,7 @@
   &__container {
     @media (min-width: 998px) {
       display: flex;
+      padding-top: 44px;
     }
   }
 
@@ -21,7 +22,7 @@
 
   &__top {
     @media (min-width: 998px) {
-      margin-right: 150px;
+      margin-right: 165px;
     }
   }
 

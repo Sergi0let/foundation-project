@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,600,700,800,900');
+@import 'reset.scss';
+@import 'variables.scss';
+
+html,
+body {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 24px;
+  color: $mainColor;
+  font-weight: 400;
+  min-height: 100%;
+  overflow-x: hidden;
+}
+
+[class*='__container'] {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0px 15px;
+}
+
+@import 'header.scss';
+@import 'headline.scss';
+@import 'about.scss';
+@import 'customers.scss';
+@import 'features.scss';
+@import 'features-mobile.scss';
+@import 'inbox.scss';
+@import 'communication.scss';
+@import 'audience.scss';
+@import 'feedback.scss';
+@import 'hiring.scss';
+@import 'order.scss';
+@import 'footer.scss';

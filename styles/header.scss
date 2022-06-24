@@ -1,0 +1,96 @@
+.header {
+  @media (min-width: 998px) {
+    background: #f3c6bd;
+  }
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @media (min-width: 998px) {
+      padding-top: 39px;
+      background: #f3c6bd;
+    }
+  }
+
+  &__logo-container {
+    display: flex;
+    align-items: center;
+    height: 64px;
+  }
+
+  &__logo {
+    margin-right: 13px;
+    img {
+      width: 48px;
+      height: 48px;
+      @media (min-width: 998px) {
+        width: 60px;
+        height: 60px;
+      }
+    }
+  }
+
+  &__label {
+    color: $mainColor;
+    font-size: 20px;
+    line-height: 107%;
+    font-weight: 700;
+  }
+  &__sublabel {
+    display: none;
+    color: rgba(43, 41, 45, 0.6);
+    font-size: 18px;
+    line-height: 118%;
+    font-weight: 400;
+    @media (min-width: 998px) {
+      display: block;
+    }
+  }
+
+  &__hamburger-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 58px;
+    min-height: 64px;
+    border-left: 1px solid rgba(0, 0, 0, 0.15);
+    @media (min-width: 998px) {
+      display: none;
+    }
+  }
+
+  &__hamburger {
+    margin-right: -5px;
+  }
+
+  &__menu {
+    display: none;
+    @media (min-width: 998px) {
+      display: block;
+    }
+  }
+
+  &__link {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 118%;
+    color: $mainColor;
+    margin-left: 48px;
+
+    &_arrow {
+      padding-right: 22px;
+      background: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/arrow.png')
+        right 8px no-repeat;
+    }
+
+    &_checked {
+      font-weight: 700;
+    }
+  }
+
+  &__button {
+    margin-left: 56px;
+    width: 160px;
+    line-height: 48px;
+  }
+}

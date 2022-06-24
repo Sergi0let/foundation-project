@@ -1,0 +1,123 @@
+.audience {
+  background: rgba(0, 162, 198, 0.07);
+  padding-bottom: 50px;
+  @media (min-width: 998px) {
+    padding-bottom: 110px;
+  }
+
+  &__content {
+    padding: 50px 0 40px 0;
+    font-weight: 700;
+    @media (min-width: 998px) {
+      padding: 108px 0 111px 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  &__label {
+    font-size: 22px;
+    line-height: 155%;
+    text-align: center;
+    padding-bottom: 17px;
+  }
+
+  &__title {
+    font-size: 40px;
+    line-height: 100%;
+    text-align: center;
+    letter-spacing: -0.357143px;
+    padding-bottom: 18px;
+    max-width: 555px;
+    margin: 0 auto;
+    @media (min-width: 998px) {
+      font-size: 56px;
+      line-height: 56px;
+      letter-spacing: -0.5px;
+    }
+  }
+
+  &__text {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 142%;
+    text-align: center;
+    padding-bottom: 30px;
+    max-width: 555px;
+    margin: 0 auto;
+    @media (min-width: 998px) {
+      padding-bottom: 34px;
+    }
+  }
+
+  &__buttons {
+    display: block;
+    @media (min-width: 998px) {
+      display: flex;
+    }
+  }
+
+  &__button {
+    font-size: 18;
+    display: block;
+    line-height: 48px;
+    margin-bottom: 12px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
+      inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+    &:last-child {
+      margin-bottom: 40px;
+    }
+    @media (min-width: 998px) {
+      padding: 0px 28px;
+      margin: 0 10px 0 0;
+      &:last-child {
+        margin: 0px 0px 0px 0px;
+      }
+    }
+
+    &_black {
+      color: #000;
+    }
+  }
+
+  &__categories {
+    @media (min-width: 998px) {
+      display: flex;
+      justify-content: space-between;
+      min-width: 262px;
+    }
+  }
+
+  &__item {
+    margin-bottom: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
+      inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+    text-align: center;
+    @media (min-width: 998px) {
+      min-width: 262px;
+      min-height: 300px;
+    }
+    &_checked-blue {
+      background: #3141c5;
+      color: #fff;
+    }
+  }
+
+  &__img-container {
+    padding: 22px 0px 22px 0px;
+  }
+
+  &__img {
+    max-width: 100%;
+  }
+
+  &__name {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 127%;
+    padding-bottom: 33px;
+  }
+}

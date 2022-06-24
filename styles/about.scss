@@ -1,0 +1,32 @@
+.about {
+  background: rgba(244, 245, 247, 1);
+
+  &__container {
+    padding-top: 46px;
+    padding-bottom: 11px;
+    @media (min-width: 998px) {
+      display: flex;
+      justify-content: space-between;
+      padding-top: 75px;
+      padding-bottom: 75px;
+    }
+  }
+  &__article {
+    font-size: 22px;
+    line-height: 130%;
+    max-width: 555px;
+  }
+
+  &__title {
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+
+  &__text {
+    font-weight: 400;
+    margin-bottom: 37px;
+    @media (min-width: 998px) {
+      margin-bottom: 0;
+    }
+  }
+}

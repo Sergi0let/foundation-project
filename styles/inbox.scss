@@ -1,0 +1,120 @@
+.inbox {
+  background: #fcf0e3;
+  padding: 50px 0px 48px 0px;
+
+  &__container {
+    @media (min-width: 998px) {
+      display: flex;
+      margin-bottom: 68px;
+    }
+  }
+
+  &__img-container {
+    @media (min-width: 998px) {
+      margin: 92px 190px 0 74px;
+    }
+  }
+  &__img-subtitle {
+    display: none;
+    @media (min-width: 998px) {
+      display: block;
+      color: rgba(43, 41, 45, 0.6);
+      font-size: 14px;
+      line-height: 22px;
+      transform: translate(72px, 15px);
+    }
+  }
+
+  &__img {
+    max-width: 100%;
+    @media (min-width: 998px) {
+      max-width: none;
+    }
+  }
+
+  &__suptitle {
+    margin-top: 32px;
+    color: #f1592b;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 132%;
+    @media (min-width: 998px) {
+      margin-top: 65px;
+      line-height: 152%;
+    }
+  }
+
+  &__title {
+    margin-top: 17px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 85%;
+    letter-spacing: -0.36px;
+    @media (min-width: 998px) {
+      line-height: 100%;
+      font-size: 56px;
+      letter-spacing: -0.5px;
+      margin-top: 24px;
+    }
+  }
+
+  &__text {
+    margin-top: 24px;
+    line-height: 121%;
+    @media (min-width: 998px) {
+      line-height: 142%;
+      max-width: 460px;
+      margin-top: 30px;
+    }
+  }
+}
+.review {
+  margin-top: 68px;
+  padding: 30px 20px 28px;
+  border-bottom: 4px solid #0185d0;
+  background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.05) 0%,
+      rgba(255, 255, 255, 1e-5) 100%
+    ),
+    #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
+    inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+
+  @media (min-width: 998px) {
+    min-width: 519px;
+    margin-top: 44px;
+  }
+
+  &__text {
+    font-size: 20px;
+    line-height: 28px;
+    span {
+      font-weight: 700;
+    }
+  }
+
+  &__user {
+    display: flex;
+    align-items: center;
+    margin-top: 28px;
+  }
+
+  &__img-user {
+    margin-right: 11px;
+    position: relative;
+    top: -10px;
+  }
+
+  &__person-name {
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 700;
+  }
+
+  &__person-position {
+    font-size: 16px;
+    line-height: 138%;
+    color: rgba(43, 41, 45, 0.6);
+  }
+}

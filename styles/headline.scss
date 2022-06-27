@@ -1,11 +1,13 @@
 .headline {
   background: #f3c6bd;
+  border-top: 1px solid #f3c6bd;
 
   &__container {
     position: relative;
   }
 
   &__title {
+    margin: 0;
     padding-top: 35px;
     min-width: 290px;
     max-width: 680px;
@@ -50,11 +52,13 @@
 
   &__button {
     display: block;
+    width: 100%;
     line-height: 48px;
     &:not(:last-child) {
       margin-bottom: 15px;
     }
     @include for-large {
+      width: auto;
       display: inline-block;
       padding: 0px 28.5px;
       &:not(:last-child) {

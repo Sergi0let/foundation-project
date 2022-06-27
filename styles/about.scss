@@ -1,14 +1,16 @@
 .about {
   background: rgba(244, 245, 247, 1);
+  padding-top: 46px;
+  padding-bottom: 11px;
+  @include for-large {
+    padding-top: 75px;
+    padding-bottom: 75px;
+  }
 
   &__container {
-    padding-top: 46px;
-    padding-bottom: 11px;
     @include for-large {
       display: flex;
       justify-content: space-between;
-      padding-top: 75px;
-      padding-bottom: 75px;
     }
   }
   &__article {

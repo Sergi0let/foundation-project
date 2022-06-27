@@ -35,6 +35,7 @@
 
   &__button {
     display: block;
+    width: 100%;
     margin: 30px 0 39px 0;
     line-height: 48px;
     font-size: 18px;
@@ -42,7 +43,7 @@
       inset 0px 1px 0px rgba(255, 255, 255, 0.1);
     @include for-large {
       display: inline-block;
-      padding: 0px 29px;
+      width: 247px;
       margin-bottom: 110px;
     }
   }

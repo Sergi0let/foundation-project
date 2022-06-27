@@ -1,6 +1,5 @@
 .footer {
   padding-top: 40px;
-  padding-bottom: 22px;
   &__container {
     @include for-large {
       display: flex;
@@ -32,6 +31,7 @@
       display: flex;
       width: 100%;
       justify-content: space-between;
+      align-items: center;
     }
   }
 
@@ -39,7 +39,7 @@
     font-size: 14px;
     line-height: 22px;
     color: rgba(43, 41, 45, 0.6);
-    padding-bottom: 31px;
+    padding-bottom: 30px;
     a {
       margin-right: 16px;
     }
@@ -152,6 +152,7 @@
   }
 }
 .social-links {
+  padding-bottom: 30px;
   &__img {
     margin-right: 20px;
   }

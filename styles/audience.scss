@@ -59,8 +59,8 @@
   }
 
   &__button {
-    font-size: 18;
-    display: block;
+    width: 100%;
+    font-size: 18px;
     line-height: 48px;
     margin-bottom: 12px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
@@ -69,6 +69,7 @@
       margin-bottom: 40px;
     }
     @include for-large {
+      width: 160px;
       padding: 0px 28px;
       margin: 0 10px 0 0;
       &:last-child {
@@ -96,11 +97,13 @@
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
       inset 0px 1px 0px rgba(255, 255, 255, 0.1);
     text-align: center;
+    transition: all 0.3s ease 0s;
     @include for-large {
       min-width: 262px;
       min-height: 300px;
     }
-    &_checked-blue {
+
+    &:hover {
       background: #3141c5;
       color: #fff;
     }

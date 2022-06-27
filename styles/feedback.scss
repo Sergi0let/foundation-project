@@ -2,7 +2,7 @@
   border-bottom: 1px solid #e3e3e3;
   &__container {
     position: relative;
-    @media (min-width: 998px) {
+    @include for-large {
       text-align: center;
     }
   }
@@ -13,7 +13,7 @@
     font-size: 24px;
     line-height: 125%;
     color: #3142c6;
-    @media (min-width: 998px) {
+    @include for-large {
       padding: 60px 0 28px 0;
     }
   }
@@ -22,7 +22,7 @@
     font-size: 24px;
     line-height: 142%;
     padding-bottom: 32px;
-    @media (min-width: 998px) {
+    @include for-large {
       max-width: 750px;
       margin: 0 auto;
       padding-bottom: 34px;
@@ -50,7 +50,7 @@
     height: 12px;
     width: 100%;
     padding-bottom: 40px;
-    @media (min-width: 998px) {
+    @include for-large {
       padding-bottom: 66px;
     }
   }
@@ -69,7 +69,7 @@
     align-items: center;
     justify-content: center;
     padding-bottom: 50px;
-    @media (min-width: 998px) {
+    @include for-large {
       position: absolute;
       right: -100px;
       bottom: -50px;

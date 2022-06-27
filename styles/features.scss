@@ -2,7 +2,7 @@
   display: none;
   margin-top: 90px;
   padding-bottom: 110px;
-  @media (min-width: 998px) {
+  @include for-large {
     display: block;
   }
   &__container {

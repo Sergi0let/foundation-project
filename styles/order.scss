@@ -1,7 +1,7 @@
 .order {
   background: #f4f5f7;
   padding: 50px 0px;
-  @media (min-width: 998px) {
+  @include for-large {
     padding: 73px 0px;
   }
 
@@ -9,7 +9,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    @media (min-width: 998px) {
+    @include for-large {
       flex-direction: row;
       align-items: flex-start;
     }
@@ -17,7 +17,7 @@
 
   &__img-container {
     padding-bottom: 40px;
-    @media (min-width: 998px) {
+    @include for-large {
       padding: 0px 121px 0px 105px;
     }
   }
@@ -32,7 +32,7 @@
     line-height: 40px;
     text-align: center;
     letter-spacing: -0.25px;
-    @media (min-width: 998px) {
+    @include for-large {
       text-align: left;
       padding-top: 51px;
       margin-bottom: 12px;
@@ -43,7 +43,7 @@
     font-size: 22px;
     line-height: 32px;
     padding: 18px 0px 81px 0px;
-    @media (min-width: 998px) {
+    @include for-large {
       max-width: 555px;
       padding: 0px 0px 26px 0px;
     }
@@ -51,7 +51,7 @@
 
   &__buttons {
     width: 100%;
-    @media (min-width: 998px) {
+    @include for-large {
       display: flex;
     }
   }
@@ -61,7 +61,7 @@
     margin-bottom: 12px;
     line-height: 48px;
     text-align: center;
-    @media (min-width: 998px) {
+    @include for-large {
       width: 160px;
     }
   }
@@ -71,7 +71,7 @@
     margin-bottom: 12px;
     line-height: 48px;
     text-align: center;
-    @media (min-width: 998px) {
+    @include for-large {
       width: 385px;
       text-align: left;
       padding-left: 15px;

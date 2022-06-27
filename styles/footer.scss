@@ -2,7 +2,7 @@
   padding-top: 40px;
   padding-bottom: 22px;
   &__container {
-    @media (min-width: 998px) {
+    @include for-large {
       display: flex;
       padding-top: 44px;
     }
@@ -15,20 +15,20 @@
     line-height: 26px;
     color: rgba(43, 41, 45, 0.6);
     padding-top: 26px;
-    @media (min-width: 998px) {
+    @include for-large {
       display: block;
     }
   }
 
   &__top {
-    @media (min-width: 998px) {
+    @include for-large {
       margin-right: 165px;
     }
   }
 
   &__bottom-menu {
     padding-top: 30px;
-    @media (min-width: 998px) {
+    @include for-large {
       display: flex;
       width: 100%;
       justify-content: space-between;
@@ -49,7 +49,7 @@
     text-align: center;
     padding-top: 31px;
     padding-bottom: 40px;
-    @media (min-width: 998px) {
+    @include for-large {
       text-align: left;
       padding-top: 25px;
     }
@@ -61,7 +61,7 @@
     width: 100%;
     margin: 0 auto;
     background: rgba(227, 227, 227, 1);
-    @media (min-width: 998px) {
+    @include for-large {
       display: block;
     }
   }
@@ -71,19 +71,19 @@
     width: 100%;
     margin: 0 auto;
     background: rgba(227, 227, 227, 1);
-    @media (min-width: 998px) {
+    @include for-large {
       display: none;
     }
   }
 }
 .logo {
-  @media (min-width: 998px) {
+  @include for-large {
     display: flex;
     align-items: center;
   }
   &__img-container {
     text-align: center;
-    @media (min-width: 998px) {
+    @include for-large {
       margin-right: 15px;
     }
   }
@@ -94,7 +94,7 @@
   }
 
   &__titles {
-    @media (min-width: 998px) {
+    @include for-large {
       display: flex;
       flex-direction: column;
     }
@@ -106,7 +106,7 @@
     font-size: 20px;
     text-align: center;
     line-height: 25px;
-    @media (min-width: 998px) {
+    @include for-large {
       padding-top: 0px;
       text-align: left;
     }
@@ -118,21 +118,21 @@
     line-height: 25px;
     text-align: center;
     color: rgba(43, 41, 45, 0.6);
-    @media (min-width: 998px) {
+    @include for-large {
       text-align: left;
     }
   }
 }
 
 .additional-navigation {
-  @media (min-width: 998px) {
+  @include for-large {
     display: flex;
     padding-bottom: 0px;
   }
 
   &__block {
     padding-top: 30px;
-    @media (min-width: 998px) {
+    @include for-large {
       padding-top: 10px;
       margin-right: 80px;
     }

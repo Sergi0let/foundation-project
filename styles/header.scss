@@ -1,12 +1,16 @@
 .header {
-  @media (min-width: 998px) {
+  @include for-large {
     background: #f3c6bd;
   }
+
   &__container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    @media (min-width: 998px) {
+    @include for-large {
+      background: #f3c6bd;
+    }
+    @include for-large {
       padding-top: 39px;
       background: #f3c6bd;
     }
@@ -23,7 +27,7 @@
     img {
       width: 48px;
       height: 48px;
-      @media (min-width: 998px) {
+      @include for-large {
         width: 60px;
         height: 60px;
       }
@@ -42,7 +46,7 @@
     font-size: 18px;
     line-height: 118%;
     font-weight: 400;
-    @media (min-width: 998px) {
+    @include for-large {
       display: block;
     }
   }
@@ -54,7 +58,7 @@
     width: 58px;
     min-height: 64px;
     border-left: 1px solid rgba(0, 0, 0, 0.15);
-    @media (min-width: 998px) {
+    @include for-large {
       display: none;
     }
   }
@@ -65,7 +69,7 @@
 
   &__menu {
     display: none;
-    @media (min-width: 998px) {
+    @include for-large {
       display: block;
     }
   }

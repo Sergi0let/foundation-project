@@ -1,0 +1,5 @@
+@mixin for-large {
+  @media (min-width: $lg) {
+    @content;
+  }
+}

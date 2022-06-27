@@ -14,7 +14,7 @@
     line-height: 85%;
     font-weight: 700;
     letter-spacing: 0.31px;
-    @media (min-width: 998px) {
+    @include for-large {
       padding-top: 82px;
       font-size: 80px;
       line-height: 83%;
@@ -29,7 +29,7 @@
     line-height: 155%;
     min-width: 290px;
     max-width: 460px;
-    @media (min-width: 998px) {
+    @include for-large {
       padding-top: 48px;
       z-index: 1;
       position: relative;
@@ -39,7 +39,7 @@
   &__buttons {
     margin-top: 30px;
     margin-bottom: 33px;
-    @media (min-width: 998px) {
+    @include for-large {
       padding-bottom: 126px;
       margin-bottom: 0px;
       margin-top: 58px;
@@ -54,7 +54,7 @@
     &:not(:last-child) {
       margin-bottom: 15px;
     }
-    @media (min-width: 998px) {
+    @include for-large {
       display: inline-block;
       padding: 0px 28.5px;
       &:not(:last-child) {
@@ -71,7 +71,7 @@
 
   &__img-wrapper {
     padding-bottom: 36px;
-    @media (min-width: 998px) {
+    @include for-large {
       padding-bottom: 0px;
       position: absolute;
       right: 0;

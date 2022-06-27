@@ -2,7 +2,7 @@
   display: block;
   max-width: 998px;
   margin: 0 auto;
-  @media (min-width: 998px) {
+  @include for-large {
     display: none;
   }
   &__item {

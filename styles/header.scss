@@ -1,5 +1,7 @@
 .header {
+  border-bottom: px solid #f3c6bd;
   @include for-large {
+    padding-top: 40px;
     background: #f3c6bd;
   }
 

@@ -54,8 +54,12 @@ h6 {
   font-size: inherit;
 }
 
+.header {
+  border-bottom: px solid #f3c6bd;
+}
 @media (min-width: 1400px) {
   .header {
+    padding-top: 40px;
     background: #f3c6bd;
   }
 }
@@ -156,8 +160,8 @@ h6 {
 }
 
 .headline {
+  transform: translate(0, -1px);
   background: #f3c6bd;
-  border-top: 1px solid #f3c6bd;
 }
 .headline__container {
   position: relative;
@@ -1188,7 +1192,7 @@ h6 {
   }
 }
 .footer__bottom-menu {
-  padding-top: 30px;
+  padding-top: 20px;
 }
 @media (min-width: 1400px) {
   .footer__bottom-menu {
@@ -1196,6 +1200,8 @@ h6 {
     width: 100%;
     justify-content: space-between;
     align-items: center;
+    min-height: 50px;
+    padding-top: 0px;
   }
 }
 .footer__bottom-licens {
@@ -1206,6 +1212,11 @@ h6 {
 }
 .footer__bottom-licens a {
   margin-right: 16px;
+}
+@media (min-width: 1400px) {
+  .footer__bottom-licens {
+    padding-bottom: 0px;
+  }
 }
 .footer__store {
   text-align: center;
@@ -1320,7 +1331,12 @@ h6 {
 }
 
 .social-links {
-  padding-bottom: 30px;
+  padding-top: 5px;
+}
+@media (min-width: 1400px) {
+  .social-links {
+    transform: translate(0px, 5px);
+  }
 }
 .social-links__img {
   margin-right: 20px;
@@ -1371,4 +1387,4 @@ body {
   padding: 0px 15px;
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=index.css.map */
